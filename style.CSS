@@ -47,6 +47,12 @@
    background-size: cover;
    background-attachment: fixed;
 }
+.container .section:nth-child(5){
+  background: rgb(69, 127, 160) url(p9.jpeg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .container .section .content{
 position: absolute;
 /* bottom: 90px; */
@@ -372,7 +378,7 @@ h8{
    font-weight: 800;
    margin-bottom: 1px;
    letter-spacing: 1px;
-   color: rgb(8, 8, 8);
+   color: rgb(247, 240, 240);
  }
  @media only screen and (min-width: 768px) {
    .timeline:before {
