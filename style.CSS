@@ -307,7 +307,8 @@ h5{
     /* bottom: 90px; */
     top: 10%;
     left: 10%;
-    max-width: 1000px;              
+    max-width: 100%;  
+    color:rgb(243, 241, 236)            
     }
     .container .section .contenta h6{
       color: aqua;     
@@ -464,7 +465,7 @@ h8{
 
 .bottom {
   /* background-color: aqua; */
-  height: 70%;
+  height: 100%;
   width: 100%
 }
 
@@ -488,7 +489,7 @@ h8{
 
 .progress{
   display: flex;
-  height: 30px;
+  height: 40px;
   overflow: hidden;
   font-size: .75rem;
   background-color: #bec5cc;
@@ -500,6 +501,32 @@ h8{
 
 .bottom .right .side {
   width: 100%;
-  height: 50%;
+  height: 100%;
   padding-left: 4%;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
